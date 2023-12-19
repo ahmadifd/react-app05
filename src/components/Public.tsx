@@ -15,7 +15,9 @@ const Public = () => {
         </Stack>
         <Stack>
           <Typography>Public-Footer</Typography>
-          <Typography> <Link to="/login"> Login</Link></Typography>
+          <Link to="/login">
+            <Typography> Login</Typography>
+          </Link>
         </Stack>
       </Stack>
     </>
