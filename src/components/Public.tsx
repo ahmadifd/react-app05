@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 import { Stack } from "@mui/system";
-import { Link } from "react-router-dom";
+
 
 const Public = () => {
   const content = (
@@ -15,9 +15,7 @@ const Public = () => {
         </Stack>
         <Stack>
           <Typography>Public-Footer</Typography>
-          <Link to="/login">
-            <Typography> Login</Typography>
-          </Link>
+         
         </Stack>
       </Stack>
     </>
