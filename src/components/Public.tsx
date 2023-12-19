@@ -1,14 +1,5 @@
-
-
-
 const Public = () => {
-  const content = (
-    <>
-      
-       Hello World
-    
-    </>
-  );
+  const content = <>Hello World</>;
 
   return content;
 };
